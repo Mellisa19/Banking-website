@@ -1,0 +1,339 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+    color: black;
+    font-size: 1rem;
+}
+
+/*Navigation*/
+.navbar{background: linear-gradient(to right,brown,#988c34);
+    padding: 0.1rem;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    margin-bottom: 3rem;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{ color: white;
+font-size: 1.5rem;
+font-weight: bold;
+}
+
+.nav-link{ display: flex;
+    list-style: none;
+}
+
+.nav-link li a{ color: azure;
+    text-decoration: none;
+    padding: 0.5rem;
+    display: flex;
+}
+
+.nav-link li a:hover{ background: rgba(red, green, blue, alpha);
+    border-radius: 4px;
+    color: rgb(56, 38, 177);
+}
+.hero{ background-color: darkgreen;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    padding: 0px;
+    
+}
+.hero-content h1{
+    font: 4px;
+margin-bottom: 1rem;
+text-shadow: 2px 2px 4px rgb(red, green, rgb(76, 76, 85));
+}
+.hero-content p{font-size:2rem;
+    margin-bottom: 1rem;
+    max-width: 300px;
+    font-style: italic;
+    font: fallback;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cta-button{background-color: white;
+    color: black;
+    padding: 1rem  2.5rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.cta-button:hover{
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 15px rgba(rgb(193, 65, 65), rgb(89, 136, 89), rgb(15, 15, 93), alpha);
+    background: #1a2a6c;
+    color: white;
+
+}
+
+/* About Section */
+.about {
+padding: 3rem 0;
+background-color: darkgreen;
+align-items: center;
+height: 100vh;
+}
+    
+.about h2{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 10rem;
+    color: #dcb836;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about p{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    padding: 1.5rem;
+    font-size: 10;
+}
+/* Contact Section */
+.Contact{
+    padding: 40px 0;
+    background-color: darkgreen;
+    align-items:center ;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+}
+.Contact h1{
+    padding: 5rem 0;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-decoration: double;
+    text-align: center;
+}
+
+.Contact ul li{
+    
+    font-size: 18px;
+    display: grid;
+    margin-bottom: 30px;
+    max-width: 300px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 0;
+    line-height: 30px;
+    list-style-type: none;
+}
+.Faith h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 28px;
+    color: #2c3e50;
+    margin-top: 40px;
+    font-weight: bold;
+    padding: 2rem;
+}
+.Faith th{
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-weight: bold;
+}
+.Faith td{
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+/* Transfer */
+.Transfer{
+    color: black;
+    padding: 5rem;
+    font-size: 2rem;
+display: grid;
+background-color: darkgreen;
+}
+.Transfer button{
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.Transfer label{
+padding: 3rem;
+font-size: 2rem;
+}
+.Transfer input{
+    padding: 1rem;
+    border: 1px;
+    border-radius: 9px;
+    border-color: black solid;
+}
+.Transfer option{
+
+    border: 1px;
+    padding: 2rem;
+    font-size: 2rem;
+}
+.Submit{
+    background-color:blue;
+    color: black;
+    padding: 1rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 3sec;
+    font-weight: bold;
+    size: 1px;
+}
+.Submit:hover{
+
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 5px rgba(red, green, blue, alpha);
+    background: #249830;
+    
+    
+} 
+/* Register */
+.Register{
+    padding: 2rem;
+    font-size: large;
+    font-style: normal;
+    display: grid;
+    text-align: center;
+    background-color: darkgreen;
+}
+.Register h2{
+text-align: center;
+padding: 1rem;
+font-size: 5rem;
+color: black;
+
+}
+.Register{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    
+}
+    .Register p{
+        margin-bottom: 2rem;
+        border:1rem ;
+
+    }
+    .Register input{
+        padding: 1rem;
+        text-align: left;
+        font-size: 1rem;
+        font-weight: bold;
+        border: 1px;
+        border-radius: 9px;
+        border-color:black solid;
+        align-items: center;
+        
+    
+    }
+
+.sub-button{
+        background-color: rgb(23, 121, 207);
+        color: #1a2a6c;
+        padding: 1rem 1rem;
+        border: 1rem;
+        border-radius: 80px;
+        cursor: pointer;
+        transition: 0.3s;
+        font-weight: bold;
+    }
+    .sub-button:hover{
+        transform: translateY(-3px);
+        box-shadow: 5px 5px 5px rgba(red, green, blue, alpha);
+        background: #1a6c3f;
+        color: rgb(255,255,255);
+    }
+    /* sign in */
+    .sign-in{
+        padding: 3rem 0;
+        background-color: darkgreen;
+        align-items: center;
+        height: 100vh;
+    }
+    .sign-in h2{
+        text-align: center;
+        margin-bottom: 3rem;
+        font-size: 3rem;
+        color: black
+        margin-top: 2rem;
+        font-weight: bold;
+    }
+    .sign-in label{
+font-size: medium;
+font-weight: bold;
+    }
+    .sign-in input{
+        padding: 1rem;
+        border: 0.5px solid #ddd;
+        border-radius: 20px;
+        font-size: 1rem;
+        align-items: center;
+    }
+.sub-button{
+    background-color: white;
+    color: #1a2a6c;
+    padding: 2rem;
+    border: 1rem;
+    border-radius: 80px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+    .sub-button:hover{
+        transform: translateY(-3px);
+        box-shadow: 5px 5px 5px rgba(red, green, blue, alpha);
+        background: #1a6c3f;
+        color: rgb(255,255,255);
+    }
+
+/* Transactions */
+.Transactions{
+    padding: 1rem 0;
+    background: darkgreen;
+    align-items: center;
+    height: 100vh;
+}
+
+.Transactions h2{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    margin-top: 2rem;font-weight: bold;
+    padding: 1rem;
+}
+    .Transactions th{
+        font-size: 2.5rem;
+        padding: 1rem;
+        color: #f5f5f5;
+        text-decoration: double;
+    }
+
+    .Transactions td{
+        font-size: 2.5rem;
+        color: #ddd;
+        padding: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: double;
+    }
+    
